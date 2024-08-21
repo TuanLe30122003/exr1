@@ -1,0 +1,118 @@
+.core-services-cover {
+    margin-top: 131px;
+
+}
+
+.core-services-cover .title-and-des {
+    display: flex;
+    flex-direction: column;
+}
+
+.core-services-cover .title-and-des h3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 100, 174, 1);
+    margin-bottom: 11px;
+}
+
+.core-services-cover .title-and-des h1 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+    color: rgba(9, 17, 86, 1);
+    margin-bottom: 11px;
+}
+
+.core-services-cover .title-and-des p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgba(139, 139, 139, 1);
+}
+
+.service-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 56px;
+    margin-top: 82px;
+}
+
+.service-box {
+    width: 343px;
+    height: 458px;
+    border-radius: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 25px 50px 25px rgba(246, 247, 255, 1);
+}
+
+.service-box img {
+    width: 166px;
+    height: 166px;
+}
+
+.service-box__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-box h2 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    text-align: center;
+    color: rgba(9, 17, 86, 1);
+    margin-top: 50px;
+}
+
+.service-box p {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgba(139, 139, 139, 1);
+    margin-top: 12px;
+    transform: translateY(10px);
+}
+
+@media only screen and (max-width: 1224px) {
+    .core-services-cover .title-and-des p {
+        width: 75%;
+    }
+
+    .core-services-cover .title-and-des {
+        align-items: center;
+    }
+
+    .core-services-cover {
+        margin-top: 70px;
+    }
+
+    .service-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .service-box {
+        width: 210px;
+        height: 270px;
+    }
+}

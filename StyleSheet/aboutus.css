@@ -1,0 +1,134 @@
+.about-us-cover {
+    /* height: 100vh; */
+    /* margin-top: -220px; */
+    z-index: -1;
+    padding: 134.34px 150px 0 150px;
+}
+
+.about-us {}
+
+.about-us__des {
+    display: flex;
+    flex-direction: row;
+    transform: translateY(10px);
+}
+
+.about-us__des .title-and-des {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us__des .title-and-des>h3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #FF64AE;
+    margin-bottom: 10px;
+}
+
+.about-us__picture {
+    flex-basis: 40%;
+    transform: translateY(40px);
+    display: flex;
+    justify-content: center;
+}
+
+.about-us__picture img {
+    width: 476px;
+    height: 350px;
+}
+
+.about-us__des .title-and-des>h1 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+    color: #091156;
+    margin-bottom: 15px;
+}
+
+.about-us__des .title-and-des>p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #8B8B8B;
+    width: 73%;
+}
+
+.about-us__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 44px;
+    margin-top: 54px;
+}
+
+.about-us__button .cta-button {
+    margin-top: 0;
+}
+
+.watch-video {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+}
+
+.watch-video a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #8B8B8B;
+}
+
+.watch-video ion-icon {
+    font-size: 49px;
+}
+
+@media only screen and (max-width: 1224px) {
+    .about-us__des {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-cover {
+        padding: 100px 50px 0 50px;
+    }
+
+    .about-us__des .title-and-des {
+        align-items: center;
+    }
+
+    .about-us__des .title-and-des h3 {
+        text-align: center;
+    }
+
+    .about-us__des .title-and-des h1 {
+        text-align: center;
+    }
+
+    .about-us__des .title-and-des p {
+        text-align: center;
+        width: 75%;
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+    .about-us__picture img {
+        width: 100%;
+    }
+
+    .about-us__button {
+        flex-direction: column;
+    }
+}

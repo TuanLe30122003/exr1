@@ -1,0 +1,157 @@
+.intro {
+    position: relative;
+    width: 100%;
+    /* padding-left: 150px; */
+    /* padding-right: 150px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    min-height: 805px;
+    overflow-x: hidden;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 191px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 12rem; */
+    padding: 40px 0;
+}
+
+.bg-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.open-menu {
+    display: none;
+}
+
+.hide-menu {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 46px;
+    margin-bottom: 10px;
+}
+
+.nav a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.contact {
+    width: 158px;
+    height: 52px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 100, 174, 1);
+    margin-left: 10px;
+}
+
+.contact>a {
+    color: #fff;
+}
+
+.open-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.open-menu ion-icon {
+    font-size: 40px;
+}
+
+.back-to-top {
+    display: flex;
+    position: absolute;
+    bottom: 80px;
+    width: 36px;
+    height: 36px;
+    right: 65px;
+    justify-content: center;
+    align-items: center;
+    background: #FF64AE;
+    padding: 9px;
+}
+
+.back-to-top ion-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1224px) {
+    .logo {
+        margin-right: 100px;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 50px 150px 70px 150px;
+        flex-direction: column;
+        background-color: #fff;
+        z-index: 99;
+        border: 1px solid #000;
+        border-bottom-left-radius: 25px;
+    }
+
+    .nav a {
+        padding: 12px 20px;
+    }
+
+    .contact {
+        margin-left: 0;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header-contain {
+        width: 100%;
+        padding: 0 30px;
+        /* position: relative; */
+    }
+
+    .open-menu {
+        display: flex;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .logo {
+        margin-right: 20px;
+    }
+}
