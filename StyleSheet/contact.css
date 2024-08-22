@@ -20,7 +20,7 @@
 .contact-info__form {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 47px;
 }
 
 .contact-info__form .title-and-des p:nth-child(1) {
@@ -31,6 +31,7 @@
     text-align: left;
     color: #FF64AE;
     margin-bottom: 10px;
+    transform: translate(1px, -3px);
 }
 
 .contact-info__form .title-and-des h2 {
@@ -51,6 +52,7 @@
     letter-spacing: 0.1em;
     text-align: left;
     color: #8B8B8B;
+    transform: translateY(-1.5px);
 }
 
 
@@ -63,7 +65,11 @@
 }
 
 .contact-info__img {
-    transform: translateY(33px);
+    transform: translateY(25px);
+}
+
+.form .grid-item:nth-child(2) {
+    padding-left: 27px;
 }
 
 .grid-item {
@@ -86,7 +92,7 @@
     border-radius: 15px;
     height: 240px;
     font-size: 16px;
-    padding-top: 25px;
+    padding-top: 28px;
     /* padding: 25px 100px 100px 24px; */
 }
 
@@ -95,19 +101,14 @@
     letter-spacing: 0.1em !important;
 }
 
-.contact-info .pink-button {
-    width: 248px;
-    height: 58px;
-    margin-top: -20px;
-}
-
 .contact-info .pink-button a {
     text-align: center;
 }
 
 .contact-info .cta-button {
-    margin-top: 5px;
     width: 248px;
+    margin-left: 0;
+    transform: translate(0.5px, -22.5px);
 }
 
 @media only screen and (max-width: 1224px) {

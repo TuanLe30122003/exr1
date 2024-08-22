@@ -19,7 +19,8 @@
     line-height: 60px;
     text-align: left;
     color: rgba(9, 17, 86, 1);
-
+    margin-top: 2px;
+    margin-left: 6px;
 }
 
 .hero-text p {
@@ -30,7 +31,8 @@
     letter-spacing: 0.1em;
     text-align: left;
     color: rgba(9, 17, 86, 1);
-    margin-top: 10px;
+    margin-top: 9px;
+    margin-left: 6px;
 }
 
 .hero-image {
@@ -42,6 +44,10 @@
     /* margin-left: 10px; */
 }
 
+.hero-image img {
+    margin-left: 4px;
+}
+
 .cta-button {
     width: 200px;
     height: 58.36px;
@@ -51,7 +57,9 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 100, 174, 1);
-    margin-top: 35px;
+    margin-top: 33px;
+    margin-left: 6.5px;
+
 }
 
 .cta-button a {
@@ -65,7 +73,7 @@
 }
 
 .slider-position {
-    margin-top: 132px;
+    margin-top: 131px;
     display: flex;
     flex-direction: row;
     width: 100%;

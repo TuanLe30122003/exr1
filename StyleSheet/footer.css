@@ -1,14 +1,22 @@
 .footer {
-    margin-top: 300px;
+    margin-top: 280px;
     position: relative;
 }
 
 .bg-footer {
     position: absolute;
-    top: -250px;
+    top: -234px;
     left: 0;
     width: 100%;
     z-index: -1;
+}
+
+.bot-bg {
+    position: absolute;
+    bottom: -96px;
+    left: 0;
+    z-index: -2;
+    width: 100%;
 }
 
 .bg-footer img {
@@ -25,7 +33,7 @@
 }
 
 .footer__main .logo-and-info {
-    margin-right: 159px;
+    /* margin-right: 159px; */
     transform: translateY(10px);
 }
 
@@ -37,8 +45,7 @@
     letter-spacing: 0.1em;
     text-align: left;
     margin-bottom: 20px;
-    margin-top: 33px;
-    margin-left: 31px;
+    transform: translate(31px, 24px);
 }
 
 .footer__main .logo-and-info>p {
@@ -49,14 +56,14 @@
     line-height: 21px;
     letter-spacing: 0.1em;
     text-align: left;
-    margin-left: 31px;
+    transform: translate(32px, 26px);
 }
 
 .footer__main .logo-and-info .phone-and-mail {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    margin-left: 31px;
+    transform: translate(32px, 33px);
 }
 
 .footer__main .logo-and-info .phone-and-mail {
@@ -75,22 +82,37 @@
 }
 
 .pages {
-    margin-right: 203px;
+    /* margin-right: 203px; */
+    transform: translate(186px, -5.5px);
+}
+
+.information {
+    transform: translate(394px, -6.5px);
 }
 
 .pages h3 {
-    letter-spacing: 0.1em;
+    letter-spacing: 0.088em;
 }
 
 .information h3 {
+    /* letter-spacing: 0.065em; */
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
     letter-spacing: 0.1em;
+    text-align: left;
 }
 
 .pages ul {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-top: 24px;
+    transform: translate(2px, 27.5px);
+}
+
+.pages li:nth-child(5) {
+    transform: translateY(-2px);
 }
 
 .pages li {
@@ -109,16 +131,19 @@
     flex-direction: column;
     gap: 11px;
     margin-top: 26px;
+    transform: translate(1px, 0);
 }
 
 .information li {
     display: flex;
     align-items: center;
     letter-spacing: 0.1em;
+    transform: translateY(1px);
 }
 
 .information li ion-icon {
-    margin-right: 8px;
+    margin-right: 9px;
+    font-size: 10px;
 }
 
 
@@ -128,7 +153,7 @@
     flex-direction: row;
     color: #fff;
     justify-content: space-between;
-    margin-top: 140px;
+    margin-top: 160px;
 }
 
 .social {
