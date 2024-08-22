@@ -65,12 +65,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 44px;
+    gap: 39px;
     margin-top: 53px;
 }
 
 .about-us__button .cta-button {
-    margin-top: 0;
+    margin-top: -2px;
     margin-left: 0;
 }
 
@@ -82,7 +82,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 11px;
+    gap: 5px;
 }
 
 .watch-video a {
@@ -96,8 +96,11 @@
     transform: translateY(-1px);
 }
 
-.watch-video img {
-    margin-right: 2px;
+.watch-video ion-icon {
+    font-size: 61px;
+    transform: translate(-1px, -2px);
+    /* margin-right: 2px; */
+    /* margin-bottom: 3px; */
 }
 
 @media only screen and (max-width: 1224px) {

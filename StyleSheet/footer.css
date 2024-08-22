@@ -220,11 +220,24 @@
 @media only screen and (max-width: 1024px) {
     .option-box {
         flex-direction: column;
-        gap: 30px;
+        gap: 60px;
+    }
+
+    .bot-bg {
+        display: none;
     }
 
     .footer__main {
         align-items: center;
+        gap: 30px;
+    }
+
+    .information {
+        transform: translate(0);
+    }
+
+    .pages {
+        transform: translate(0);
     }
 }
 
@@ -276,6 +289,14 @@
         flex-direction: column;
         margin-top: 20px;
         gap: 10px;
+    }
+
+    .information {
+        transform: translate(0);
+    }
+
+    .pages {
+        transform: translate(0);
     }
 }
 

@@ -127,6 +127,6 @@
 @media only screen and (max-width: 580px) {
     .service-box {
         width: 210px;
-        height: 270px;
+        /* height: 270px; */
     }
 }
