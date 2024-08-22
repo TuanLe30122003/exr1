@@ -1,17 +1,24 @@
 const hideMenu = document.querySelector('.hide-menu')
 const openMenu = document.querySelector('.open-menu')
 const nav = document.querySelector('.nav')
+const blurScreen = document.querySelector('.blur')
 
 // console.log(hideMenu, openMenu); 
 
 
-hideMenu.onclick = () => {
+hideMenu.onclick = (e) => {
+    e.preventDefault()
     nav.style.display = "none"
-    console.log("none")
+    blurScreen.style.display = "none"
+
+    // console.log(1);
+
 }
 
-openMenu.onclick = () => {
+openMenu.onclick = (e) => {
+    e.preventDefault()
     nav.style.display = "flex"
-    console.log("flex")
+    blurScreen.style.display = "flex"
 
+    // console.log(2)
 }

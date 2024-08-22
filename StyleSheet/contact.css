@@ -135,6 +135,12 @@
         padding: 50px;
     }
 
+    .contact-info__img {
+        transform: translateY(0px);
+        display: flex;
+        justify-content: center;
+    }
+
     .contact-info__form .title-and-des {
         align-items: center;
     }

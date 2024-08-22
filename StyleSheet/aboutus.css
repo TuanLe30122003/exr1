@@ -134,7 +134,8 @@
 
 @media only screen and (max-width: 580px) {
     .about-us__picture img {
-        width: 100%;
+        width: 140px;
+        height: 210px;
     }
 
     .about-us__button {

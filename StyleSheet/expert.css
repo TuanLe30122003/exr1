@@ -171,10 +171,16 @@
     height: 49px;
     border-radius: 50%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     box-shadow: -2px 6px 16px -1px rgba(230, 233, 253, 1);
+}
+
+.expert-contact img {
+    /* width: 30px; */
+    height: 50%;
+    width: 50%;
 }
 
 @media only screen and (max-width: 1224px) {
@@ -192,5 +198,10 @@
 
     .expert {
         padding: 20px;
+    }
+
+    .expert-contact div {
+        width: 35px;
+        height: 35px;
     }
 }
