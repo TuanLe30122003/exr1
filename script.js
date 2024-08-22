@@ -22,3 +22,9 @@ openMenu.onclick = (e) => {
 
     // console.log(2)
 }
+
+blurScreen.onclick = (e) => {
+    e.preventDefault()
+    nav.style.display = "none"
+    blurScreen.style.display = "none"
+}
